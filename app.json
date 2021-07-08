@@ -1,0 +1,49 @@
+{
+    "name": "BotStatus",
+    "description": "Simple basic code for a telegram bot in Telethon.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "botzhub"
+    ],
+    "repository": "https://github.com/sampathsir/BotStatus",
+    "website": "xditya.me",
+    "success_url": "https://t.me/BotzHub",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "FROM_CHANNEL" : {
+            "description": "The ID of the main channel from where posts have to be copied. (Use @chnlidbot to get it.)",
+            "value" : ""
+        },
+        "TO_CHANNEL" : {
+            "description" : "The ID of the channel to which the posts are to be sent. (Use @chnlidbot to get it.)",
+            "value" : ""
+        },
+         "REPO_NAME" : {
+         "description" : "repo name of yours",
+         "value" : ""
+        },
+         "session string" : {
+         "description" : "string of session",
+         "value" : ""
+       }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
